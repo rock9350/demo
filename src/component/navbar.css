@@ -2,6 +2,7 @@
   width: 99.8%;
   height: 50px;
   border: 1px solid black;
+  text-align: center;
 }
 
 #navbar > button {
