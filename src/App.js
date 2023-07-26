@@ -6,19 +6,16 @@ import Card from "./component/usercard";
 
 class App extends Component {
 
-  state = {status:""}
-  onGet = (data) => {
-    this.setState({data})
-  };
-
-  loader=(status)=>{
-    this.setState({status})
-  }
-
+  
   render() {
    
     return (
       <div className="App">
+        <> 
+        <div>
+          00111
+        </div>
+        </>
         <Navbar onGet={this.onGet} loader={this.loader}/>
         <Card Data={this.state.data} status={this.state.status}/>
       </div>
