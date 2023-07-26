@@ -11,6 +11,11 @@ class App extends Component {
    
     return (
       <div className="App">
+        <>
+        <div>
+          1450
+          </div>
+          </>
         <Navbar onGet={this.onGet} loader={this.loader}/>
         <Card Data={this.state.data} status={this.state.status}/>
       </div>
